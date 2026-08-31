@@ -10,7 +10,7 @@
 # 2024-09-06     Supperthomas 优化toolchain安装方式，解决手动触发出现的异常，优化流程结构
 #
 name:  manual_scons_dist_trigger_only_one
-
+# Enable manual build workflow in fork
 # Controls when the action will run. Triggers 'scons --dist' to build the dist
 on:
   workflow_dispatch:
